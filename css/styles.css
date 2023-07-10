@@ -10092,11 +10092,14 @@ section.resume-section {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  /* padding-bottom: 5rem; */
   max-width: 75rem;
+  margin-top: -7rem;
 }
 section.resume-section .resume-section-content {
   width: 100%;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
 }
 
 @media (min-width: 768px) {
@@ -10109,6 +10112,6 @@ section.resume-section .resume-section-content {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    /* padding-bottom: 5rem; */
   }
 }
